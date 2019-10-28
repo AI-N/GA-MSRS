@@ -3,12 +3,12 @@ import numpy as np
 import csv
 import matplotlib.pyplot as plt
 
-data=np.genfromtxt('.../Ratings.dat',delimiter='::')
+data = np.genfromtxt('.../Ratings.dat',delimiter='::')
 
-uID=data[:,][:,0]     # first column
-mID=data[:,][:,1]     # second column
-rating=data[:,][:,2]  #third column
-time=data[:,][:,3]
+uID = data[:,][:,0]     # first column
+mID = data[:,][:,1]     # second column
+rating = data[:,][:,2]  #third column
+time = data[:,][:,3]
 rating[np.isnan(rating)] = 0
 
 ### number of rows(users), columns(movies) and variety of ratings given by users
