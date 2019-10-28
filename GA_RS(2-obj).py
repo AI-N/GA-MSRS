@@ -146,8 +146,8 @@ def mutation(pop, off1, off2, p1, p2):
 main
 """
 k=5 # length of list
-gens = 200 # number of generations
-NP= 100 #size of  population
+gens = 30 # number of generations
+NP= 80 #size of  population
 
 Sigma_pred = np.zeros((NP,len(recommend)))
 Sigma_Target = np.zeros((NP,len(recommend)))
