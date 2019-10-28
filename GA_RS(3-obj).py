@@ -181,8 +181,8 @@ def mutation(pop, off1, off2, p1, p2):
 main
 """
 k=5 # length of list
-gens = 200 # number of generations
-NP = 100 #size of population
+gens = 30 # number of generations
+NP = 80 #size of population
 providerNum = 8 # or len(prov.T) : number of providers (movie companies)
 
 Sigma_pred = np.zeros((NP,len(recommend)))
